@@ -1,0 +1,16 @@
+@import "reset";
+@import "variables/global";
+@import "themes/dark";
+@import "themes/light";
+
+
+.app {
+  font: var(--font-m);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  min-height: 100vh;
+
+  background-color: var(--bg-color);
+  color: var(--primary-color);
+}

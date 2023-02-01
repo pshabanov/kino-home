@@ -1,0 +1,36 @@
+:root {
+  --font-family-main: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;;
+  --font-size-m: 16px;
+  --font-line-m: 24px;
+  --font-m: var(--font-size-m)/var(--font-line-m) var(--font-family-main);
+
+  --font-size-l: 24px;
+  --font-line-l: 32px;
+  --font-l: var(--font-size-l)/var(--font-line-l) var(--font-family-main);
+
+  /*
+   Основной Цвет фиолетовый: #A869F0
+   #8C68B4 #5B229C #C08FF8 #CFABF8
+  Вторичный Цвет A - теплые цвета: #FF6367  - на отмену действия
+  #BF676A #A52024 #FF8A8D #FFA9AB
+  Вторичный Цвет B - холодные цвета: #62CBEE - на наведение
+  #649FB2 #207C9A #8ADBF6 #A7E2F6
+  Дополнительный Цвет - жельтый: #FFF463 - цвет антогонист
+  #BFB968 #A69C20 #FFF68A #FFF9A9
+  */
+  --default-black: #100e19;
+  --default-subBlack: #282c34;
+  --default-grey: #100E197F;
+  --default-white: #f1f1f1;
+  --default-subWhite: #F1F1F198;
+  --start-gradient-color: #A869F0;
+  --end-gradient-color: #834CC2;
+  --shadow-color: #A869F0;
+  --dmain-purple: #A869F0;
+  --dmain-purpleDark: #5B229C;
+  --dcold-blue: #62CBEE;
+  --dcold-blue_rgb: 98, 203, 238;
+  --dcold-blueDark: #207C9A;
+}

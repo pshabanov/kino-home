@@ -1,0 +1,10 @@
+.app.light {
+  --bg-color: #f1f1f1;
+
+  --primary-color: #100e19;
+  --secondary-color: #484848;
+}
+
+a {
+  color: var(--primary-color);
+}
