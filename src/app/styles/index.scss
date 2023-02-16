@@ -96,3 +96,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
   monospace;
 }
+.__dark {
+  fill: #fff;
+}
+.__light {
+  fill: var(--default-subBlack);
+}
