@@ -1,8 +1,21 @@
 .AppLink {
-  color: var(--dcold-blue);
+  color: var(--primary-color);
+  background-color: rgba(var(--dcold-blue_rgb), 0);
   text-decoration: none;
-
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.4s ease-in-out;
 }
 .AppLink:hover {
+  background-color: rgba(var(--dcold-blue_rgb), 1);
+  transition: 0.4s ease-in-out;
+}
 
+.primary {
+  color: var(--primary-color);
+}
+
+.secondary {
+  color: var(--secondary-color);
 }
